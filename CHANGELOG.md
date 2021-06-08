@@ -9,6 +9,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 ### Added
 
 - New `\Hector\Orm\Event\EntityDeleteEvent` event
+- Tests of `\Hector\Orm\Assert\EntityAssert` trait
 
 ## [1.0.0-beta1] - 2021-06-02
 
