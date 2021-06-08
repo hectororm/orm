@@ -11,6 +11,10 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 - New `\Hector\Orm\Event\EntityDeleteEvent` event
 - Tests of `\Hector\Orm\Assert\EntityAssert` trait
 
+### Removed
+
+- @package attributes from PhpDoc
+
 ## [1.0.0-beta1] - 2021-06-02
 
 Initial development.
