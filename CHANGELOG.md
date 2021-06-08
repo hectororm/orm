@@ -11,6 +11,10 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 - New `\Hector\Orm\Event\EntityDeleteEvent` event
 - Tests of `\Hector\Orm\Assert\EntityAssert` trait
 
+### Changed
+
+- Explode `\Hector\Orm\DataType` namespace data types family namespaces
+
 ### Removed
 
 - @package attributes from PhpDoc
