@@ -23,7 +23,6 @@
   },
   "require": {
     "php": "^8.0",
-    "ext-json": "*",
     "ext-pdo": "*",
     "berlioz/helpers": "^1.0",
     "hectororm/connection": "@dev",
