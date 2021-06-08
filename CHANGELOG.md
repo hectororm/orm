@@ -15,6 +15,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 - @package attributes from PhpDoc
 - Unused `\Hector\Orm\ExternalEnvironment` class
+- Unused `\Hector\Orm\OrmTrait` class
 
 ## [1.0.0-beta1] - 2021-06-02
 
