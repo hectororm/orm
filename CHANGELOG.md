@@ -14,6 +14,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 ### Removed
 
 - @package attributes from PhpDoc
+- Unused `\Hector\Orm\ExternalEnvironment` class
 
 ## [1.0.0-beta1] - 2021-06-02
 
