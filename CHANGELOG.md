@@ -14,6 +14,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 ### Changed
 
 - Explode `\Hector\Orm\DataType` namespace data types family namespaces
+- Renaming of `\Hector\Orm\Orm::getEntityStorageStatus()` to `\Hector\Orm\Orm::getStatus()`
 
 ### Removed
 
@@ -21,6 +22,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 - Unused `\Hector\Orm\ExternalEnvironment` class
 - Unused `\Hector\Orm\OrmTrait` class
 - Composer JSON extension requirement, already included in PHP 8
+- Method `\Hector\Orm\Orm::isAttached()`, use `\Hector\Orm\Orm::getStatus()` instead
 
 ## [1.0.0-beta1] - 2021-06-02
 
