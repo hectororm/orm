@@ -15,6 +15,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 - Explode `\Hector\Orm\DataType` namespace data types family namespaces
 - Renaming of `\Hector\Orm\Orm::getEntityStorageStatus()` to `\Hector\Orm\Orm::getStatus()`
+- Execute `Orm::persist()` in a transaction
 
 ### Removed
 
