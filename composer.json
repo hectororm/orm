@@ -32,7 +32,8 @@
     "psr/event-dispatcher": "^1.0"
   },
   "require-dev": {
-    "phpunit/phpunit": "^9.3"
+    "ext-pdo_mysql": "*",
+    "phpunit/phpunit": "^9.5"
   },
   "suggest": {
   }

@@ -1,0 +1,46 @@
+name: Tests
+
+on:
+  push: ~
+  pull_request: ~
+
+jobs:
+  phpunit:
+    name: PHPUnit on PHP ${{ matrix.php-versions }} & ${{ matrix.mysql-versions.distribution }} ${{ matrix.mysql-versions.version }}
+    runs-on: ubuntu-latest
+    env:
+      MYSQL_DSN: "mysql:host=127.0.0.1;dbname=sakila;user=root"
+    continue-on-error: ${{ !matrix.stable }}
+    strategy:
+      fail-fast: false
+      matrix:
+        php-versions: [ '8.0', '8.1' ]
+        composer-flags: [ '--ignore-platform-req php' ]
+        mysql-versions: [ { distribution: 'mysql', version: '8.0' },
+                          { distribution: 'mysql', version: '5.7' },
+                          { distribution: 'mariadb', version: '10.6' },
+                          { distribution: 'mariadb', version: '10.5' } ]
+
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - uses: shogo82148/actions-setup-mysql@v1
+        with:
+          mysql-version: ${{ matrix.mysql-versions.version }}
+          distribution: ${{ matrix.mysql-versions.distribution }}
+
+      - run: mysql -uroot -h127.0.0.1 < tests/Sakila/mysql-schema.sql
+      - run: mysql -uroot -h127.0.0.1 < tests/Sakila/mysql-data.sql
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-versions }}
+          extensions: pdo, pdo-mysql
+          coverage: xdebug
+          tools: composer:v2
+
+      - run: composer update --no-progress ${{ matrix.composer-flags }}
+      - run: vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover

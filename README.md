@@ -2,7 +2,7 @@
 
 [![Latest Version](https://img.shields.io/packagist/v/hectororm/orm.svg?style=flat-square)](https://github.com/hectororm/orm/releases)
 [![Software license](https://img.shields.io/github/license/hectororm/orm.svg?style=flat-square)](https://github.com/hectororm/orm/blob/main/LICENSE)
-[![Build Status](https://img.shields.io/travis/com/hectororm/orm/main.svg?style=flat-square)](https://travis-ci.com/hectororm/orm)
+[![Build Status](https://img.shields.io/github/workflow/status/hectororm/orm/Tests/main.svg?style=flat-square)](https://github.com/hectororm/orm/actions/workflows/tests.yml?query=branch%3Amain)
 [![Quality Grade](https://img.shields.io/codacy/grade/2580ecb12b404940b20b246f6350c11a/main.svg?style=flat-square)](https://app.codacy.com/gh/hectororm/orm)
 [![Total Downloads](https://img.shields.io/packagist/dt/hectororm/orm.svg?style=flat-square)](https://packagist.org/packages/hectororm/orm)
 
