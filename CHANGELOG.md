@@ -10,6 +10,10 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 - New method `Entity::isEqualTo()`
 
+### Changed
+
+- Management of the types deported in the package `hectororm/data-types`
+
 ### Fixed
 
 - Signature of `Collection::jsonSerialize(): array`
