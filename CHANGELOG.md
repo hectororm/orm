@@ -6,6 +6,10 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 ## [1.0.0-beta4] - In progress
 
+### Changed
+
+- Property `MagicEntity::$hectorAttributes` renamed to `MagicEntity::$_hectorAttributes`
+
 ### Fixed
 
 - Get inverse relationship in one to many relation threw exception
