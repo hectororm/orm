@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file. This projec
 to [Semantic Versioning] (http://semver.org/). For change log format,
 use [Keep a Changelog] (http://keepachangelog.com/).
 
+## [1.0.0-beta4] - In progress
+
+### Fixed
+
+- Get inverse relationship in one to many relation threw exception
+
 ## [1.0.0-beta3] - 2021-08-27
 
 ### Added
