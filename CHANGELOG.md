@@ -14,6 +14,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 ### Fixed
 
 - Get inverse relationship in one to many relation threw exception
+- Infinite loop when saving with belongs relationships
 
 ## [1.0.0-beta3] - 2021-08-27
 
