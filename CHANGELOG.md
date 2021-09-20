@@ -9,6 +9,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 ### Changed
 
 - Property `MagicEntity::$hectorAttributes` renamed to `MagicEntity::$_hectorAttributes`
+- Optimize comparison of entity
 
 ### Fixed
 
