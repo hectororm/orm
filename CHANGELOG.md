@@ -8,7 +8,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 ### Added
 
-- New method `Entity::isAltered(?array $columns = null): bool`
+- New method `Entity::isAltered(string ...$column): bool`
 
 ### Changed
 
