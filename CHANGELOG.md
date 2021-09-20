@@ -14,6 +14,8 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 - Property `MagicEntity::$hectorAttributes` renamed to `MagicEntity::$_hectorAttributes`
 - Optimize comparison of entity
+- Improve debug info of entity with the loaded relations
+- Improve debug info of collection with the entities list only
 
 ### Fixed
 
