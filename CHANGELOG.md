@@ -6,6 +6,10 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 ## [1.0.0-beta4] - In progress
 
+### Added
+
+- New method `Entity::isAltered(?array $columns = null): bool`
+
 ### Changed
 
 - Property `MagicEntity::$hectorAttributes` renamed to `MagicEntity::$_hectorAttributes`
