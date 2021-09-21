@@ -10,6 +10,10 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 - New method `Collection::updateHook(): void` to manipulate the collection after an update
 
+### Fixed
+
+- Check of entity storage status during deletion
+
 ## [1.0.0-beta4] - 2021-09-20
 
 ### Added
