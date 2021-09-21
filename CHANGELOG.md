@@ -10,6 +10,10 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 - New method `Collection::updateHook(): void` to manipulate the collection after an update
 
+### Changed
+
+- `Collection::contains()` compare now primary keys
+
 ### Fixed
 
 - Check of entity storage status during deletion
