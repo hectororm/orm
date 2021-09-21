@@ -17,6 +17,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 ### Fixed
 
 - Check of entity storage status during deletion
+- No loading relations if got a single entity
 
 ## [1.0.0-beta4] - 2021-09-20
 
