@@ -9,6 +9,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 ### Changed
 
 - Use asserts class for collection and entity
+- Use constant for pivot prefix
 
 ### Removed
 
