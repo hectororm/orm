@@ -13,6 +13,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 ### Changed
 
 - `Collection::contains()` compare now primary keys
+- Use asserts class for collection and entity
 
 ### Fixed
 
