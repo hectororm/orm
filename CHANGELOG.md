@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file. This projec
 to [Semantic Versioning] (http://semver.org/). For change log format,
 use [Keep a Changelog] (http://keepachangelog.com/).
 
+## [1.0.0-beta6] - In progress
+
+### Changed
+
+- Use asserts class for collection and entity
+
+### Removed
+
+- Unnecessary PhpDoc
+- Remove redundant assertions
+
 ## [1.0.0-beta5] - 2021-09-21
 
 ### Added
@@ -13,12 +24,6 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 ### Changed
 
 - `Collection::contains()` compare now primary keys
-- Use asserts class for collection and entity
-
-### Removed
-
-- Unnecessary PhpDoc
-- Remove redundant assertions
 
 ### Fixed
 
