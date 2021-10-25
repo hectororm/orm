@@ -15,6 +15,11 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 - `Collection::contains()` compare now primary keys
 - Use asserts class for collection and entity
 
+### Removed
+
+- Unnecessary PhpDoc
+- Remove redundant assertions
+
 ### Fixed
 
 - Check of entity storage status during deletion
