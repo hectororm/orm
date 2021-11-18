@@ -6,15 +6,30 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 ## [1.0.0-beta6] - In progress
 
+### Added
+
+- Add PivotData object to get raw columns of pivot table
+
 ### Changed
 
 - Use asserts class for collection and entity
 - Use constant for pivot prefix
+- `AbstractMapper::updateEntity()` use all columns if no primary declared in table
+- `AbstractMapper::deleteEntity()` use all columns if no primary declared in table
+- `AbstractMapper::refreshEntity()` use all columns if no primary declared in table
+- `AbstractMapper::getEntityAlteration()` now return all column for new entity
+- With relations, now don't save related entity if not altered
+- Delete pivot relation detached from collection
 
 ### Removed
 
 - Unnecessary PhpDoc
 - Remove redundant assertions
+
+### Fixed
+
+- `AbstractMapper::updateEntity()` with primary empty values throw error
+- `AbstractMapper::extractPrimaryValue()` with no primary keys throw error
 
 ## [1.0.0-beta5] - 2021-09-21
 
