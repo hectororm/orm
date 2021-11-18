@@ -9,6 +9,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 ### Added
 
 - Add PivotData object to get raw columns of pivot table
+- New static method `ReflectionEntity::get()` in replacement of `Orm::getEntityReflection()`
 
 ### Changed
 
