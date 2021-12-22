@@ -10,6 +10,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 - Add PivotData object to get raw columns of pivot table
 - New static method `ReflectionEntity::get()` in replacement of `Orm::getEntityReflection()`
+- New method `Builder::resetEntityColumns()` and so keep default comportment of `Builder::resetColumns()`
 
 ### Changed
 
