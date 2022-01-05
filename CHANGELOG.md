@@ -32,6 +32,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 - `AbstractMapper::updateEntity()` with primary empty values throw error
 - `AbstractMapper::extractPrimaryValue()` with no primary keys throw error
+- Incomplete collection from `ManyToMany::get()` method
 
 ## [1.0.0-beta5] - 2021-09-21
 
