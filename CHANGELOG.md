@@ -22,6 +22,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 - `AbstractMapper::getEntityAlteration()` now return all column for new entity
 - With relations, now don't save related entity if not altered
 - Delete pivot relation detached from collection
+- `Entity::isEqualTo()` now compare pivot data too
 
 ### Removed
 
