@@ -4,13 +4,14 @@ All notable changes to this project will be documented in this file. This projec
 to [Semantic Versioning] (http://semver.org/). For change log format,
 use [Keep a Changelog] (http://keepachangelog.com/).
 
-## [1.0.0-beta6] - In progress
+## [1.0.0-beta6] - 2022-02-19
 
 ### Added
 
 - Add PivotData object to get raw columns of pivot table
 - New static method `ReflectionEntity::get()` in replacement of `Orm::getEntityReflection()`
 - New method `Builder::resetEntityColumns()` and so keep default comportment of `Builder::resetColumns()`
+- Use `hectororm/collection` package for collections
 
 ### Changed
 
@@ -28,12 +29,14 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 - Unnecessary PhpDoc
 - Remove redundant assertions
+- Remove personalized collections and `Collection` attribute
 
 ### Fixed
 
 - `AbstractMapper::updateEntity()` with primary empty values throw error
 - `AbstractMapper::extractPrimaryValue()` with no primary keys throw error
 - Incomplete collection from `ManyToMany::get()` method
+- Remove method `Collection::updateHook(): void`
 
 ## [1.0.0-beta5] - 2021-09-21
 
