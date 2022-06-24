@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file. This projec
 to [Semantic Versioning] (http://semver.org/). For change log format,
 use [Keep a Changelog] (http://keepachangelog.com/).
 
+## [1.0.0-beta7] - 2022-06-24
+
+### Changed
+
+- Reuse jointure for multiple where with entity relations
+
 ## [1.0.0-beta6] - 2022-02-19
 
 ### Added
