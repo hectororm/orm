@@ -8,6 +8,9 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 ### Changed
 
+- Bump version of package `hectororm/collection` to v1.0.0-beta3
+- Bump version of package `hectororm/connection` to v1.0.0-beta5
+- Bump version of package `hectororm/query` to v1.0.0-beta5
 - Reuse jointure for multiple where with entity relations
 
 ## [1.0.0-beta6] - 2022-02-19
