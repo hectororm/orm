@@ -10,6 +10,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 - ManyToOne relationship with null value, do not alter entity
 - Order of columns of `Mapper::collectEntity()`
+- Comparison with no fields of entity in `Mapper::getEntityAlteration()`
 
 ## [1.0.0-beta7] - 2022-06-24
 
