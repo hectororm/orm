@@ -4,7 +4,13 @@ All notable changes to this project will be documented in this file. This projec
 to [Semantic Versioning] (http://semver.org/). For change log format,
 use [Keep a Changelog] (http://keepachangelog.com/).
 
-## [1.0.0-beta8] - In progress
+## [1.0.0-beta8] - 2022-09-05
+
+### Changed
+
+- Uses `LazyCollection` instead of `Generator`
+- `QueryBuilder::chunk()` uses `LazyCollection` instead of cursor with `Collection`
+- Update dependencies
 
 ### Fixed
 
