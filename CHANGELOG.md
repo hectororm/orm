@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file. This projec
 to [Semantic Versioning] (http://semver.org/). For change log format,
 use [Keep a Changelog] (http://keepachangelog.com/).
 
+## [1.0.0-beta9] - In progress
+
+### Changed
+
+- Update return type of method `MagicEntity::jsonSerialize()` to `mixed`
+
 ## [1.0.0-beta8] - 2022-09-05
 
 ### Changed
