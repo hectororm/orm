@@ -10,6 +10,10 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 - Update return type of method `MagicEntity::jsonSerialize()` to `mixed`
 
+### Fixed
+
+- Delete pivot relation detached from collection
+
 ## [1.0.0-beta8] - 2022-09-05
 
 ### Changed
