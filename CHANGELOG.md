@@ -13,6 +13,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 ### Changed
 
 - Update return type of method `MagicEntity::jsonSerialize()` to `mixed`
+- Bump version of package `hectororm/collection` to v1.0.0-beta6
 
 ### Fixed
 
