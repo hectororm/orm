@@ -25,7 +25,7 @@
     "php": "^8.0",
     "ext-pdo": "*",
     "berlioz/helpers": "^1.6",
-    "hectororm/collection": "v1.0.0-beta5",
+    "hectororm/collection": "v1.0.0-beta6",
     "hectororm/connection": "v1.0.0-beta6",
     "hectororm/data-types": "v1.0.0-beta2",
     "hectororm/query": "v1.0.0-beta6",
