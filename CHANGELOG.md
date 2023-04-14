@@ -6,6 +6,10 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 ## [1.0.0-beta9] - In progress
 
+### Added
+
+- New parameter to `Builder::chunk()` to use eager collection instead of lazy collection for big SQL query
+
 ### Changed
 
 - Update return type of method `MagicEntity::jsonSerialize()` to `mixed`
