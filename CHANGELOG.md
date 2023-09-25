@@ -6,6 +6,10 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 ## [1.0.0-beta11] - In progress
 
+### Added
+
+- New attribute `Primary` to define the primary columns for an entity
+
 ### Fixed
 
 - Throw exception if unable to deduct columns for relation
