@@ -10,6 +10,13 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 - New attribute `Primary` to define the primary columns for an entity
 
+### Changed
+
+- Bump version of package `hectororm/data-types` to v1.0.0-beta3
+- Bump version of package `hectororm/query` to v1.0.0-beta8
+- Bump version of package `hectororm/schema` to v1.0.0-beta7
+- `OrmFactory` understand aliases option
+
 ### Fixed
 
 - Throw exception if unable to deduct columns for relation
