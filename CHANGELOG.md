@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file. This projec
 to [Semantic Versioning] (http://semver.org/). For change log format,
 use [Keep a Changelog] (http://keepachangelog.com/).
 
+## [1.0.0-beta12] - 2024-03-19
+
+### Changed
+
+- Bump version of package `hectororm/query` to v1.0.0-beta9
+
 ## [1.0.0-beta11] - 2024-03-19
 
 ### Added
