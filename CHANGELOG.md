@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file. This projec
 to [Semantic Versioning] (http://semver.org/). For change log format,
 use [Keep a Changelog] (http://keepachangelog.com/).
 
+## [1.0.0-beta16] - 2024-09-25
+
+### Changed
+
+- Bump `hectororm/connection` version to 1.0.0-beta7
+- Bump `hectororm/schema` version to 1.0.0-beta8
+- Bump `hectororm/query` version to 1.0.0-beta11
+
 ## [1.0.0-beta15] - 2024-07-10
 
 ### Changed
