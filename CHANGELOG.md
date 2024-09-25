@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file. This projec
 to [Semantic Versioning] (http://semver.org/). For change log format,
 use [Keep a Changelog] (http://keepachangelog.com/).
 
+## [1.0.0-beta17] - 2024-09-25
+
+### Changed
+
+- `OrmFactory::connection()` accepts username and password options
+
 ## [1.0.0-beta16] - 2024-09-25
 
 ### Changed
