@@ -8,7 +8,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 
 ### Added
 
-- Compatibility with `psr/simple-cache` ^1.0 and ^2.0
+- Compatibility with `psr/simple-cache` ^2.0 and ^3.0
 
 ## [1.0.0-beta17] - 2024-09-25
 
