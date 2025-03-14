@@ -9,6 +9,7 @@ use [Keep a Changelog] (http://keepachangelog.com/).
 ### Changed
 
 - Bump `hectororm/connection` version to 1.0.0-beta9
+- Bump `hectororm/data-types` version to 1.0.0-beta7
 - Bump `hectororm/query` version to 1.0.0-beta14
 - Bump `hectororm/schema` version to 1.0.0-beta10
 
