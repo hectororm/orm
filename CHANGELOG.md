@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file. This projec
 to [Semantic Versioning] (http://semver.org/). For change log format,
 use [Keep a Changelog] (http://keepachangelog.com/).
 
+## [1.0.0-beta22] - 2025-03-28
+
+### Changed
+
+- Bump `hectororm/data-types` version to 1.0.0-beta8
+
 ## [1.0.0-beta21] - 2025-03-14
 
 ### Changed

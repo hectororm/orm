@@ -27,7 +27,7 @@
     "berlioz/helpers": "^1.6",
     "hectororm/collection": "v1.0.0-beta6",
     "hectororm/connection": "v1.0.0-beta9",
-    "hectororm/data-types": "v1.0.0-beta7",
+    "hectororm/data-types": "v1.0.0-beta8",
     "hectororm/query": "v1.0.0-beta14",
     "hectororm/schema": "v1.0.0-beta10",
     "psr/simple-cache": "^1.0 || ^2.0 || ^3.0",
